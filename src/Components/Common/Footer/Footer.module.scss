@@ -1,0 +1,20 @@
+.footer{
+    height: 10rem;
+    background: #e6e6e6;
+}
+
+.wrapper{
+    width:  80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,25%);}
+
+.clmn {
+    display: grid;
+    grid-template-rows: repeat(4,25%);
+}
+
+.title{
+    font-weight: 600;
+    font-style: italic;
+}

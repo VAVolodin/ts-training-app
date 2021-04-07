@@ -1,0 +1,19 @@
+.nav{
+    flex: 2;
+}
+
+.nav_list{
+    background: lightpink;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_list > li {
+    padding: 0.3rem;
+}
+
+.nav_list > li:hover {
+    background: violet;
+    cursor: pointer;
+    transition: all 0.25s;
+}

@@ -1,0 +1,15 @@
+.header {
+    background:  lightgrey;
+}
+
+.header_wrapper {
+    width:  80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header_wrapper > div {
+    width: 10rem;
+    text-align: center;
+    vertical-align: middle;
+}
