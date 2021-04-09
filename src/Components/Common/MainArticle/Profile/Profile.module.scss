@@ -1,0 +1,54 @@
+.profile_wrap {
+    display: flex;
+    background-image: url(../../../../assets/image/user_info_bg.png);
+}
+
+.user_info{
+    color: aliceblue;
+}
+
+.user_info span{
+    display: block;
+}
+
+.input {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.input button {
+    height: 2rem;
+    width: 100%;
+    margin: 1% 0;
+}
+
+.utext {
+    height: 8rem;
+    width: 100%;
+    display: block;
+    resize: none;
+    margin-top: 1%;
+}
+.utext:focus{
+    outline: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.avatar {
+    max-height: 10rem;
+    margin: 1%;
+    border-radius: 100%;
+    background-color: aquamarine;
+}
+
+.posts, .post  {
+    margin: 1%;
+}
+
+.post_avatar{
+    max-height: 4rem;
+    background-color: aquamarine;
+    border-radius: 100%;
+    margin: 0 1%;
+
+}

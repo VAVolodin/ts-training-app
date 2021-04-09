@@ -1,6 +1,14 @@
+.wrapper {
+    // display: flex;
+    // flex-direction: column;
+    height: 100%;
+}
 
-.main_page_wrapper {
+.content {
+    width: 80%;
     margin: 0 auto;
-    padding: 0;
-    background: blue;
+    // flex: 1 0 auto;
+    min-height: calc(100vh - 15.5rem);
+    display: grid;
+    grid-template-columns: 20rem 1fr 10rem;
 }

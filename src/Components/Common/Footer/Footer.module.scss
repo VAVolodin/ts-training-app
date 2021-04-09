@@ -1,13 +1,15 @@
 .footer{
     height: 10rem;
-    background: #e6e6e6;
+    background: #f1f1f1;
 }
 
 .wrapper{
     width:  80%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4,25%);}
+    gap: 1%;
+    grid-template-columns: 10rem repeat(4, 21.3%);
+}
 
 .clmn {
     display: grid;
@@ -17,4 +19,13 @@
 .title{
     font-weight: 600;
     font-style: italic;
+    vertical-align: middle;
+}
+
+.logo > row {
+    width: 100%;
+}
+
+.logo img{
+    width: 10rem;
 }

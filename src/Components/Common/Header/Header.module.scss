@@ -1,15 +1,22 @@
 .header {
-    background:  lightgrey;
+    background: #f4f4f4;
+    // position: fixed;
 }
 
 .header_wrapper {
     width:  80%;
     margin: 0 auto;
     display: flex;
+    align-items: center;
 }
 
 .header_wrapper > div {
     width: 10rem;
-    text-align: center;
-    vertical-align: middle;
+//     text-align: center;
+//     vertical-align: middle;
+}
+
+.logo {
+    max-width: 10rem;
+    max-height: 4rem;
 }
