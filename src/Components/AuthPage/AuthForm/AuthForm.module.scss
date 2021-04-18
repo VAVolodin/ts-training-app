@@ -1,0 +1,45 @@
+.wrapper{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background: url(https://wallpapercave.com/wp/wp4366051.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.form {
+    width: 60%;
+    max-width: 300px;
+    min-height: 60%;
+    margin: auto 0;
+    background: rgba(172, 172, 172, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0.3em;
+}
+
+.form>div{
+    text-align: center;
+}
+
+.form button {
+    height: 2rem;
+    border-radius: 1rem;
+    width: 55%;
+    margin: 1rem 0;
+    outline: none;
+}
+
+.form button:hover{
+    background-color: lightpink;
+}
+
+.signUp{
+    font-size: 0.8em;
+    margin: 1rem 0;
+}
+
+.signUp a{
+    text-decoration: underline;
+}

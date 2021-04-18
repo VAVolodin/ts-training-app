@@ -31,6 +31,7 @@ class MainArticle extends React.PureComponent<IProps> {
         return (
             <>
                 <section className={s.article}>
+                    <Messages />
                     <Profile
                         userName={userName}
                         avatar={avatar}
@@ -39,7 +40,6 @@ class MainArticle extends React.PureComponent<IProps> {
                         education={education}
                         web={web}
                     />
-                    <Messages />
                     <News />
                     <Music />
                     <Settings />
